@@ -13,4 +13,10 @@ background-color: red;
   }
 
   /* exercise square tree */
-  
+
+  .ex-3-square:hover{
+    transition: all 1s;
+    border-radius: 65%;
+  }
+
+  /* exercise square four */
