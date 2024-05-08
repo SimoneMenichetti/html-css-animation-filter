@@ -44,3 +44,12 @@ background-color: red;
 
     }
 
+    /* exercise 7 Goku */
+
+    .ex-7-img:hover{
+        transition: all 3s;
+        filter: blur(20px);
+        filter: grayscale(8);
+        filter: saturate(2.2);
+    }
+
