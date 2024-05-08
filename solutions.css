@@ -1,12 +1,16 @@
-/* exercise one */
+/* exercise square one */
 
 .ex-1-square:hover{
 transition: all 2s;
 background-color: red;
 }
 
-/* exercise two */
+/* exercise square two */
 
-.ex-2-square{
+.ex-2-square:active{
+    transition-duration: 3s;
+    width: 100%;
+  }
 
-}
+  /* exercise square tree */
+  
