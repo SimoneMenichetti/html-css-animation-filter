@@ -25,3 +25,15 @@ background-color: red;
     transition: all 2s;
     opacity: 0;
   }
+
+    /* exercise square five */
+
+    .ex-5-square:hover{
+        transition: all 2s;
+        transform: scale(2)
+        
+    }
+
+    .ex-5-square:active{
+        transform:none ;
+    }
