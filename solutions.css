@@ -69,3 +69,21 @@ background-color: red;
         border-radius: 15px; 
         transform: scale(1.5);
     }
+
+    /* exercise 9 rotate icons */
+
+    .ex-10-icon{
+        animation: loading 1s linear infinite;
+    }
+    /* add key and name loading for synchro ex 10 */
+    @keyframes loading {
+            100% {
+              transform: rotate(0deg)
+            }
+            0% {
+              transform: rotate(360deg)
+            }
+          }
+       
+        
+    
