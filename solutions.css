@@ -41,15 +41,31 @@ background-color: red;
     .ex-6-img:hover{
         transition: all ;
         filter: grayscale(100%);
-
     }
 
     /* exercise 7 Goku */
 
     .ex-7-img:hover{
         transition: all 3s;
-        filter: blur(20px);
+        filter: blur(20);
         filter: grayscale(8);
         filter: saturate(2.2);
     }
 
+    /* exercise 8 img hover sepia and border radius */
+
+
+    .ex-8-img:hover{
+        transition: all 3s;
+        filter: sepia(2); 
+        border-radius: 20px; 
+    }
+
+     /* exercise 8 img hover sepia border radius highsize */
+
+     .ex-9-img:hover{
+        transition: all 3s;
+        filter: sepia(2); 
+        border-radius: 15px; 
+        transform: scale(1.5);
+    }
