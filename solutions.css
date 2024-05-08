@@ -31,9 +31,16 @@ background-color: red;
     .ex-5-square:hover{
         transition: all 2s;
         transform: scale(2)
-        
     }
 
     .ex-5-square:active{
         transform:none ;
     }
+    /* exercise square six AIRPLANE */ 
+
+    .ex-6-img:hover{
+        transition: all ;
+        filter: grayscale(100%);
+
+    }
+
